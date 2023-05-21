@@ -8,12 +8,12 @@ import "./Navbar.css"
 
 function Navtabs() {
   return (
-    <Navbar className="nav-tabs-lg navbar" expand="lg" variant="dark" collapseOnSelect>
+    <Navbar className="navbar-custom" expand="lg" variant="dark" collapseOnSelect>
       <Container className="navbar-container">
         <Navbar.Brand as={Link} to="/" className="navbar-brand">
           <span className="brand-text">Dream Escapes, Inc.</span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="menu-icon" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className="menu-icon" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-menu">
             <Nav.Link as={Link} to="/" exact className="nav-item">
@@ -26,7 +26,7 @@ function Navtabs() {
               <span className="nav-links">About</span>
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );
