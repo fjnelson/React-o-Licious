@@ -17,10 +17,10 @@ function Navtabs() {
               <span className="nav-links">Home</span>
             </Nav.Link>
             <Nav.Link as={Link} to="/" exact={true} className="nav-item">
-              <span className="nav-links">Home</span>
+              <span className="nav-links">Locations</span>
             </Nav.Link>
             <Nav.Link as={Link} to="/" exact={true} className="nav-item">
-              <span className="nav-links">Home</span>
+              <span className="nav-links">About</span>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
