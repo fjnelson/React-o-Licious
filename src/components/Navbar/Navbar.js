@@ -11,7 +11,7 @@ function Navtabs() {
     <Navbar className="nav-tabs-lg navbar" expand="lg" variant="dark" collapseOnSelect>
       <Container className="navbar-container">
         <Navbar.Brand as={Link} to="/" className="navbar-brand">
-          <span className="brand-text">Dream Escapes</span>
+          <span className="brand-text">Dream Escapes, Inc.</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="menu-icon" />
         <Navbar.Collapse id="basic-navbar-nav">
