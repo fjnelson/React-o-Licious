@@ -8,18 +8,21 @@ import "./Navbar.css"
 
 function Navtabs() {
   return (
-    <Navbar className="nav-tabs-lg navbar" expand="lg" variant="dark">
+    <Navbar className="nav-tabs-lg navbar" expand="lg" variant="dark" collapseOnSelect>
       <Container className="navbar-container">
+        <Navbar.Brand as={Link} to="/" className="navbar-brand">
+          <span className="brand-text">Dream Escapes</span>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" className="menu-icon" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav-menu">
-            <Nav.Link as={Link} to="/" exact={true} className="nav-item">
+            <Nav.Link as={Link} to="/" exact className="nav-item">
               <span className="nav-links">Home</span>
             </Nav.Link>
-            <Nav.Link as={Link} to="/" exact={true} className="nav-item">
-              <span className="nav-links">Locations</span>
+            <Nav.Link as={Link} to="/locations" className="nav-item">
+              <span className="nav-links">Destinations</span>
             </Nav.Link>
-            <Nav.Link as={Link} to="/" exact={true} className="nav-item">
+            <Nav.Link as={Link} to="/about" className="nav-item">
               <span className="nav-links">About</span>
             </Nav.Link>
           </Nav>

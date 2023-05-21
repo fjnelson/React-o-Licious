@@ -74,6 +74,13 @@
   .menu-icon {
     display: none;
   }
+
+  .navbar-brand .brand-text {
+    color: #ff6f00;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
   
   @media screen and (max-width: 960px) {
     .NavbarItems {
