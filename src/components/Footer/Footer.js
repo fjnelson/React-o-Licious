@@ -31,16 +31,10 @@ function Footer() {
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
-          <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
         </div>
       </div>
       <section className='social-media'>
+      <h2>Follow Us</h2>
         <div className='social-media-wrap'>
           <div className='social-icons'>
             <Link

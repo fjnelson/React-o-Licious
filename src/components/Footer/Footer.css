@@ -40,7 +40,8 @@
     box-sizing: border-box;
   }
   
-  .footer-link-items h2 {
+  .footer-link-items h2,
+  .social-media h2 {
     margin-bottom: 16px;
   }
   
@@ -104,6 +105,11 @@
   .website-rights {
     color: #fff;
     margin-bottom: 16px;
+  }
+
+  .social-media h2 {
+    color: #fff;
+    text-align: center;
   }
   
   @media screen and (max-width: 820px) {
